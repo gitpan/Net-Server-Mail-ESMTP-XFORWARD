@@ -1,0 +1,6 @@
+Revision history for Perl extension Net::Server::Mail::ESMTP::XFORWARD.
+
+0.01  Sat Sep 16 18:04:43 2006
+	- original version; created by h2xs 1.23 with options
+		-AXn Net::Server::Mail::ESMTP::XFORWARD
+
