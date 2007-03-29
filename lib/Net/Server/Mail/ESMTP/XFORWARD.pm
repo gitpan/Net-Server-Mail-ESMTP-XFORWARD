@@ -4,7 +4,7 @@ use 5.008008;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use base qw(Net::Server::Mail::ESMTP::Extension);
 
@@ -59,7 +59,7 @@ sub get_forwarded_name {
 	return $self->{xforward}->{name};
 }
 
-sub get_forwarded_addr {
+sub get_forwarded_address {
 	my $self = shift;
 	return $self->{xforward}->{addr};
 }

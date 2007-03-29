@@ -1,5 +1,9 @@
 Revision history for Perl extension Net::Server::Mail::ESMTP::XFORWARD.
 
+0.03  Thu Mar 29 16:14:58 2007
+	- correction: get_forwarded_addr becomes get_forwarded_address like in
+	  documentation
+
 0.02  Sun Dec 10 23:13:10 2006
 	- Correction in Makefile.PL: prereq=>Net::Server::Mail::ESMTP
 
